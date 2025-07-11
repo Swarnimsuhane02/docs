@@ -18,7 +18,7 @@
             "pages": [
               "index",
               "quickstart",
-              "integration",     // 👈 Added Integration Page
+              "integration",     
               "development"
             ]
           },
