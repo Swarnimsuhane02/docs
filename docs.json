@@ -18,15 +18,14 @@
             "pages": [
               "index",
               "quickstart",
-              "integration",     
+              "integration",
               "development"
             ]
           },
           {
             "group": "Token & Billing",
             "pages": [
-              "token-usage",
-            
+              "upgrade"
             ]
           }
         ]
