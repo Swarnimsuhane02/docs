@@ -1,58 +1,13 @@
-import { useState } from 'react'
+### Development
 
-export default function DevelopmentPage() {
-  const [showFeatures, setShowFeatures] = useState(false)
+WowDev AI simplifies the entire development process with intelligent, ready-to-use tools — so you can focus on building, not setup.
 
-  return (
-    <>
-      <h1>🚀 Product Capabilities</h1>
+From frontend to backend, everything you need is built in:
 
-      <p>
-        WowDev AI empowers developers with a full suite of intelligent, code-ready tools designed to streamline
-        your entire development workflow. From editing code with real-time AI assistance to seamlessly integrating
-        with GitHub, Supabase, and more — every feature is purpose-built to accelerate productivity.
-      </p>
+- **AI-Powered Code Editor** – Refactor, generate, and fix code with real-time AI suggestions as you build.
+- **Interactive Dev Chat** – Ask questions or get instant code help right inside your workspace.
+- **GitHub Integration** – Sync your repositories, manage branches, and track version history without leaving the platform.
+- **Supabase Support** – Connect your backend logic, authentication, and live database with a click.
+- **Visual Walkthroughs** – In-app videos that guide you through features and help you get started faster.
 
-      <button
-        onClick={() => setShowFeatures(!showFeatures)}
-        style={{
-          background: '#111',
-          color: '#fff',
-          padding: '10px 16px',
-          borderRadius: '8px',
-          border: 'none',
-          marginTop: '1rem',
-          cursor: 'pointer',
-        }}
-      >
-        {showFeatures ? 'Hide Features' : 'Show Features'}
-      </button>
-
-      {showFeatures && (
-        <div style={{ marginTop: '1rem' }}>
-          <ul style={{ paddingLeft: '1.5rem' }}>
-            <li>
-              <strong>AI-Powered Code Editor</strong>: Write, refactor, and fix code with real-time AI suggestions.
-            </li>
-            <li>
-              <strong>Interactive Dev Chat</strong>: Get contextual explanations and instant help from WowDev AI.
-            </li>
-            <li>
-              <strong>GitHub Integration</strong>: Sync your repositories and manage branches directly.
-            </li>
-            <li>
-              <strong>Supabase Backend Support</strong>: Seamlessly connect, test, and deploy backend logic.
-            </li>
-            <li>
-              <strong>Visual Feature Walkthroughs</strong>: In-app video tours to help you onboard quickly.
-            </li>
-          </ul>
-
-          <p style={{ fontSize: '0.9rem', color: '#666', marginTop: '1rem' }}>
-            More capabilities and integrations launching soon!
-          </p>
-        </div>
-      )}
-    </>
-  )
-}
+> Whether you're a beginner or an experienced dev, WowDev AI removes the friction from app development — so you can go from idea to deployment in minutes.
