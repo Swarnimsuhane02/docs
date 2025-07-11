@@ -27,6 +27,12 @@
             "pages": [
               "upgrade"
             ]
+          },
+          {
+            "group": "Support",
+            "pages": [
+              "faq"
+            ]
           }
         ]
       },
